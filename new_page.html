@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <table>
+        <form method=POST action="http://localhost:8000/cgi-bin/project.py">
+        <tr>
+        <td align=center colspan="3">
+                 <b><font size="5" face="Arial">Дані робітника</font></b>
+        </td>
+
+        <tr>
+        <td align=center>
+                 <b><font size="3" face="Arial">Ім'я,посада</font></b>
+        </td>
+        <td align=center>
+                 <b><font size="3" face="Arial">ID,нове ім'я,нова посада(or same)</font></b>
+        </td>
+        <td align=center>
+             <b><font size="3" face="Arial">ID</font></b>
+        </td>
+
+       <tr>
+       <td>
+        <input type=text name=entry1 value="" >
+       </td>
+        <td>
+        <input type=text name=entry2 value="" >
+       </td>
+        <td>
+        <input type=text name=entry3 value="" style="width:100%;">
+       </td>
+
+        <tr>
+        <td align=center>
+            <input type=submit name=button1 value="Додати" style="height:25px;width:100%;font-size:15px;background-color:#F309CB ">
+        </td>
+        <td align=center>
+            <input type=submit name=button2 value="Змінити" style="height:25px;width:100%;font-size:15px;background-color:#F309CB ">
+        </td>
+        <td align=center>
+            <input type=submit name=button3 value="Видалити" style="height:25px;width:100%;font-size:15px;background-color:#F309CB ">
+        </td>
+
+        <tr>
+        <td align=center colspan="3">
+                 <b><font size="5" face="Arial">Дані посади</font></b>
+        </td>
+
+        <tr>
+        <td align=center>
+                 <b><font size="3" face="Arial">Назва,зарплата,план</font></b>
+        </td>
+        <td align=center>
+                 <b><font size="3" face="Arial">Назва,нова назва,нова зарплата, новий план(or same)</font></b>
+        </td>
+        <td align=center>
+             <b><font size="3" face="Arial">Назва</font></b>
+        </td>
+
+       <tr>
+       <td>
+        <input type=text name=entry4 value="">
+       </td>
+        <td>
+        <input type=text name=entry5 value="" >
+       </td>
+        <td>
+        <input type=text name=entry6 value="" style="width:100%;">
+       </td>
+
+        <tr>
+        <td align=center>
+            <input type=submit name=button4 value="Додати" style="height:25px;width:100%;font-size:15px;background-color:#F309CB ">
+        </td>
+        <td align=center>
+            <input type=submit name=button5 value="Змінити" style="height:25px;width:100%;font-size:15px;background-color:#F309CB ">
+        </td>
+        <td align=center>
+            <input type=submit name=button6 value="Видалити" style="height:25px;width:100%;font-size:15px;background-color:#F309CB ">
+        </td>
+
+        <tr>
+        <td align=center colspan="3">
+                 <b><font size="5" face="Arial">Табель</font></b>
+        </td>
+
+        <tr>
+        <td align=center>
+                 <b><font size="3" face="Arial">ID</font></b>
+        </td>
+        <td align=center>
+                 <b><font size="3" face="Arial">ID</font></b>
+        </td>
+        <td align=center>
+             <b><font size="3" face="Arial">ID</font></b>
+        </td>
+
+       <tr>
+       <td>
+        <input type=text name=entry7 value="">
+       </td>
+        <td>
+        <input type=text name=entry8 value="" >
+       </td>
+        <td>
+        <input type=text name=entry9 value="" style="width:100%;">
+       </td>
+
+        <tr>
+        <td align=center>
+            <input type=submit name=button7 value="Додати" style="height:25px;width:100%;font-size:15px;background-color:#F309CB ">
+        </td>
+        <td align=center>
+            <input type=submit name=button8 value="Змінити" style="height:25px;width:100%;font-size:15px;background-color:#F309CB ">
+        </td>
+        <td align=center>
+            <input type=submit name=button9 value="Видалити" style="height:25px;width:100%;font-size:15px;background-color:#F309CB ">
+        </td>
+
+        <tr>
+        <td align=left colspan="2" rowspan="3">
+            <input type=submit name=button10 value="Подивитись перерахування" style="height:100%;width:100%;font-size:20px;background-color:#F309CB">
+        </td>
+
+        <td align=center>
+             <b><font size="3" face="Arial">ID, період(d.mm.yyyy-d.mm.yyyy)</font></b>
+
+        </td>
+        <tr>
+        <td>
+        <input type=text name=entry10 value="" style="width:100%;">
+       </td>
+        <tr>
+        <td align=center>
+            <input type=submit name=button11 value="Подивитись перерахування за період"
+                   style="height:55px;width:100%;font-size:15px;white-space: normal;background-color:#F309CB ">
+        </td>
+        </form>
+     </table>
+</body>
+</html>
